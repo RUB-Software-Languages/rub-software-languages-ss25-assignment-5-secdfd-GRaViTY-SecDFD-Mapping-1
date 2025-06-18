@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.gravity.mapping.secdfd.model:Mapping xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.gravity.mapping.secdfd="platform:/plugin/org.gravity.mapping.secdfd/model/model.ecore" xmlns:org.gravity.mapping.secdfd.model="http://www.gravity-mapping-secdfd.org/mapping" xmlns:org.gravity.typegraph.basic="http://www.gravity-tool.org/typegraph/basic" xmlns:org.secdfd="http://www.secdfd.org/secdfd" userdefined="//@correspondences.36 //@correspondences.37 //@correspondences.39 //@correspondences.40 //@correspondences.41 //@correspondences.42 //@correspondences.43 //@correspondences.44 //@correspondences.45 //@correspondences.46 //@correspondences.47 //@correspondences.10 //@correspondences.48 //@correspondences.49 //@correspondences.50 //@correspondences.2 //@correspondences.51 //@correspondences.52 //@correspondences.53 //@correspondences.54 //@correspondences.55 //@correspondences.56 //@correspondences.57 //@correspondences.35 //@correspondences.22 //@correspondences.12 //@correspondences.7 //@correspondences.17 //@correspondences.58 //@correspondences.59 //@correspondences.60 //@correspondences.33 //@correspondences.25 //@correspondences.5 //@correspondences.18 //@correspondences.34 //@correspondences.26 //@correspondences.6 //@correspondences.31 //@correspondences.27 //@correspondences.4 //@correspondences.20 //@correspondences.32 //@correspondences.28 //@correspondences.3 //@correspondences.19 //@correspondences.61 //@correspondences.62 //@correspondences.63 //@correspondences.64 //@correspondences.65 //@correspondences.66 //@correspondences.67 //@correspondences.68 //@correspondences.69 //@correspondences.29 //@correspondences.24 //@correspondences.21 //@correspondences.30 //@correspondences.23 //@correspondences.70 //@correspondences.71 //@correspondences.72 //@correspondences.73 //@correspondences.74 //@correspondences.75 //@correspondences.76 //@correspondences.77" suggested="//@correspondences.36 //@correspondences.38 //@correspondences.44 //@correspondences.54 //@correspondences.53 //@correspondences.59 //@correspondences.63 //@correspondences.62 //@correspondences.73 //@correspondences.72 //@correspondences.77 //@correspondences.76" accepted="//@correspondences.12 //@correspondences.13 //@correspondences.22 //@correspondences.7 //@correspondences.17 //@correspondences.8 //@correspondences.3 //@correspondences.9 //@correspondences.14 //@correspondences.15 //@correspondences.16 //@correspondences.24 //@correspondences.21 //@correspondences.23 //@correspondences.11 //@correspondences.10 //@correspondences.27 //@correspondences.4 //@correspondences.20 //@correspondences.28 //@correspondences.19 //@correspondences.25 //@correspondences.5 //@correspondences.18 //@correspondences.26 //@correspondences.6 //@correspondences.2 //@correspondences.1" name="jpetstoredfd">
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.100/@signatures.1/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.100/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.143/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.54"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#product"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.59"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.24"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#account_info"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.55"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#account_info"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.21"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.56"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.23"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.37"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100">
+    <source href="jpetstore.xmi#//@methods.125"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.157"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.2 //@correspondences.51">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.234/@signatures.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.15">
+    <source href="jpetstore.xmi#//@methods.237"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.2 //@ignored.14">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.237/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.22"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.27"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.78"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.116"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.168"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.133"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.178"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.49"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="jpetstore.xmi#//@methods.145"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.138"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.138/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.138/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.103"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.103/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.103/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.179"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.179/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.179/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90" deriving="//@ignored.51">
+    <source href="jpetstore.xmi#//@methods.100"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.100/@signatures.1"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.100/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.149"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.149/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.149/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.143"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.143/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.36"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.36/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.36/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.155"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.155/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.155/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90" deriving="//@ignored.55">
+    <source href="jpetstore.xmi#//@methods.91"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.91/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.91/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@ignored.34">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.100/@signatures.2"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@correspondences.21" deriving="//@ignored.54">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.100/@signatures.2"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.100/@signatures.2/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.52">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.100/@signatures.2/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.3 //@ignored.48">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.91/@signatures.1"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.91/@signatures.1/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.98"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="jpetstore.xmi#//@methods.105"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.105/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.105/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </ignored>
+  <source href="jpetstore.xmi#/"/>
+  <target href="../secdfds/jpetstoredfd.secdfd#jpetstoredfd"/>
+  <correspondences xsi:type="org.gravity.mapping.secdfd:TypeGraph2EDFD">
+    <source href="jpetstore.xmi#/"/>
+    <target href="../secdfds/jpetstoredfd.secdfd#jpetstoredfd"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.98"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#productID"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.50 //@ignored.13 //@ignored.15">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.30"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#product"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.28 //@ignored.55">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.98"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#itemID"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.27 //@correspondences.28">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.27"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.25">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.37"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.26">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.39"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.22 //@ignored.51 //@correspondences.68 //@correspondences.65 //@correspondences.23 //@correspondences.24 //@ignored.52">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.22"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#account_info"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.98"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#username"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.98"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#password"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.50 //@correspondences.47">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.98"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#keyword"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.40"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.22">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.23"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#cart"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.37"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/jpetstoredfd.secdfd#cart"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.22"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.24"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.55"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#AccountDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.22">
+    <source href="jpetstore.xmi#//@methods.118"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.25 //@correspondences.26">
+    <source href="jpetstore.xmi#//@methods.3"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.28">
+    <source href="jpetstore.xmi#//@methods.143"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.27">
+    <source href="jpetstore.xmi#//@methods.263"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.23 //@correspondences.24 //@ignored.52">
+    <source href="jpetstore.xmi#//@methods.100"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.12 //@correspondences.7 //@correspondences.17" deriving="//@correspondences.35">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.118/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@correspondences.21" deriving="//@correspondences.30">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.100/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@correspondences.21" deriving="//@correspondences.29">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.100/@signatures.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.5 //@correspondences.18" deriving="//@correspondences.33">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.3/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.6 //@correspondences.18" deriving="//@correspondences.34">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.3/@signatures.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.4 //@correspondences.20" deriving="//@correspondences.31">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.263/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.4 //@correspondences.3 //@correspondences.19" deriving="//@correspondences.32">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.143/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.24">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.100/@signatures.1/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.23">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.100/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.27">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.263/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.28">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.143/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.25">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.3/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.26">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.3/@signatures.1/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.22">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.118/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.113"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.88"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.81"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#CartDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.56"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#Orders_And_ProductsDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.21"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#Orders_And_ProductsDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="jpetstore.xmi#//@ownedTypes.54"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#Orders_And_ProductsDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="jpetstore.xmi#//@ownedTypes.38"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/jpetstoredfd.secdfd#Orders_And_ProductsDB"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.44">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.183/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Authenticate"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.45" deriving="//@correspondences.43">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.183/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Authenticate"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@correspondences.44">
+    <source href="jpetstore.xmi#//@methods.183"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Authenticate"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.47">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.129/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.10 //@correspondences.48" deriving="//@correspondences.46 //@correspondences.55">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.129/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="66" deriving="//@correspondences.47">
+    <source href="jpetstore.xmi#//@methods.129"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.50">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.234/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.2 //@correspondences.10 //@correspondences.51" deriving="//@correspondences.49 //@correspondences.56">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.234/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@correspondences.50 //@ignored.13">
+    <source href="jpetstore.xmi#//@methods.234"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.53">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.202/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.54" deriving="//@correspondences.52 //@correspondences.57">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.202/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.53">
+    <source href="jpetstore.xmi#//@methods.202"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.47">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.129/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.50">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.234/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.53">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.202/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Search_Products"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.59">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.128/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.60" deriving="//@correspondences.58">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.128/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@correspondences.59">
+    <source href="jpetstore.xmi#//@methods.128"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Purchase_Order"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.62">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.92/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.63" deriving="//@correspondences.61">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.92/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.62">
+    <source href="jpetstore.xmi#//@methods.92"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#AddRemove_Items"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.65">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.32/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@correspondences.66" deriving="//@correspondences.64 //@correspondences.70">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.32/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@correspondences.65">
+    <source href="jpetstore.xmi#//@methods.32"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.68">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.119/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@correspondences.69" deriving="//@correspondences.67 //@correspondences.74">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.119/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@correspondences.68">
+    <source href="jpetstore.xmi#//@methods.119"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.65">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.32/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.72">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.139/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.73" deriving="//@correspondences.71">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.139/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.72">
+    <source href="jpetstore.xmi#//@methods.139"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.68">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.119/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.76">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="jpetstore.xmi#//@methods.229/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.77" deriving="//@correspondences.75">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="jpetstore.xmi#//@methods.229/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.76">
+    <source href="jpetstore.xmi#//@methods.229"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/jpetstoredfd.secdfd#Manage_Account"/>
+  </correspondences>
+</org.gravity.mapping.secdfd.model:Mapping>

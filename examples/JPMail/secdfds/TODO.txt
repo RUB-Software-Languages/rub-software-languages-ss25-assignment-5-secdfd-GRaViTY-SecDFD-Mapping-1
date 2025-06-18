@@ -1,0 +1,50 @@
+TODO:
+-changes to model analysis to support more than one principle (Bono)
+-Alice: add two processes; login + write email
+
+
+-more scenarios; 
+	1) what if there are two recipients? - encrypt with both public keys; everyone gets something they can decrypt
+	2) split it in two scenarios sending + receiving mail
+	3) authentification phase more details (one scenario!)
+-------
+
+
+
+
+REMOVED:
+-scenario 2; not sure if that is so interesting for us anymore. jpmail-full-0.3.1/demo/addnewuser.sh 
+			; seems like adding new user is standard certificate issuing by a trusted CA -> they are using the Java keytool certificate management utility. 
+			; Will we even reverse engineer that?
+
+
+DONE:
+-same naming if elements vis-a-vis source code
+-keep a log of what you are matching from code to model;
+	there are references to the source code method calls in comments
+-scenario 1: JPmail-bono.mydsl	
+-scenario 3: JPmail-attachment.mysdl
+-Server and Pop3Server to external entities
+-body -> mimepart body
+-fix to Attachment so that it is encrypted, accordingly to the code
+	
+	
+----------- notes -----------
+# detail the model (not to much); more subprocesses
+
+# scenario 1
+- add EE Bono
+- add scenario when Bono tries to read Alices mail that is sent to Bob
+- requires changing the label propagation to propagate according to the right principles (access control)
+
+# scenario 2
+- setting up the certificates for one user (Alice)
+
+# scenario 3
+- mails with attachment
+
+
+
+
+ 
+
