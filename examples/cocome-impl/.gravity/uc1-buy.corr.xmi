@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.gravity.mapping.secdfd.model:Mapping xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.gravity.mapping.secdfd="platform:/plugin/org.gravity.mapping.secdfd/model/model.ecore" xmlns:org.gravity.mapping.secdfd.model="http://www.gravity-mapping-secdfd.org/mapping" xmlns:org.gravity.typegraph.basic="http://www.gravity-tool.org/typegraph/basic" xmlns:org.secdfd="http://www.secdfd.org/secdfd" userdefined="//@correspondences.21 //@correspondences.22 //@correspondences.23 //@correspondences.27 //@correspondences.28 //@correspondences.29 //@correspondences.25 //@correspondences.26 //@correspondences.31 //@correspondences.32 //@correspondences.19 //@correspondences.16 //@correspondences.1 //@correspondences.6 //@correspondences.10 //@correspondences.33 //@correspondences.34 //@correspondences.35 //@correspondences.36 //@correspondences.37 //@correspondences.38 //@correspondences.39" suggested="//@correspondences.23 //@correspondences.22 //@correspondences.24 //@correspondences.26 //@correspondences.29 //@correspondences.28 //@correspondences.30 //@correspondences.34 //@correspondences.38 //@correspondences.37" accepted="//@correspondences.17 //@correspondences.14 //@correspondences.2 //@correspondences.9 //@correspondences.1 //@correspondences.5 //@correspondences.18 //@correspondences.15 //@correspondences.7 //@correspondences.11 //@correspondences.3 //@correspondences.19 //@correspondences.16 //@correspondences.6 //@correspondences.10 //@correspondences.4 //@correspondences.8 //@correspondences.12 //@correspondences.13" name="uc1">
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" deriving="//@ignored.123">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.143/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="90" deriving="//@ignored.52">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.36"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#barcode"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.64">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.214/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="90">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.20"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#barcode"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="90">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.1"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#barcode"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.73">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.251/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.195"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#scan_barcode_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="75">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.225"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#scan_barcode_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.193"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#start_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.199"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#start_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.211"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#start_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.281"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#start_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.221"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#total_change_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.193"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#finish_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.199"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#finish_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.207"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#finish_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="66">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.211"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#finish_sale_event"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.315"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50" deriving="//@ignored.49">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.191"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.66">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.243/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="60">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.263"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.265"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50" deriving="//@ignored.41">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.349"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.47" deriving="//@ignored.24">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.73/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.23">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.73/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="90">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.36"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="90">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.14"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="90">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.20"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.265"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.332"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.344"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.351"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.370"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.388"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.402"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.306"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#publish"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.37">
+    <source href="cocome-impl.xmi#//@methods.8"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.36" deriving="//@ignored.38">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.8/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.37">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.8/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.20"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.41">
+    <source href="cocome-impl.xmi#//@methods.30"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.22 //@ignored.40" deriving="//@ignored.42">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.30/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.41">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.30/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.44">
+    <source href="cocome-impl.xmi#//@methods.38"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.43" deriving="//@ignored.45">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.38/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.44">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.38/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="75">
+    <source href="cocome-impl.xmi#//@methods.63"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.23">
+    <source href="cocome-impl.xmi#//@methods.73"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.49">
+    <source href="cocome-impl.xmi#//@methods.95"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.18 //@ignored.48">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.95/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.98"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.52">
+    <source href="cocome-impl.xmi#//@methods.116"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@ignored.1 //@ignored.51">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.116/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.54">
+    <source href="cocome-impl.xmi#//@methods.169"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.53">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.169/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.56">
+    <source href="cocome-impl.xmi#//@methods.172"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.55" deriving="//@ignored.57">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.172/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.56">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.172/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.59">
+    <source href="cocome-impl.xmi#//@methods.188"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.58" deriving="//@ignored.60">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.188/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.59">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.188/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.195"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.63">
+    <source href="cocome-impl.xmi#//@methods.211"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.62">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.211/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.2">
+    <source href="cocome-impl.xmi#//@methods.214"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.242"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.19">
+    <source href="cocome-impl.xmi#//@methods.243"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.68">
+    <source href="cocome-impl.xmi#//@methods.244"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.67" deriving="//@ignored.69">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.244/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.68">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.244/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="75" deriving="//@ignored.71">
+    <source href="cocome-impl.xmi#//@methods.247"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@ignored.70" deriving="//@ignored.72">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.247/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.71">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.247/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.5">
+    <source href="cocome-impl.xmi#//@methods.251"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.255"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="75" deriving="//@ignored.76">
+    <source href="cocome-impl.xmi#//@methods.260"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.75" deriving="//@ignored.78 //@ignored.77">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.260/@signatures.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.78 //@ignored.76">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.260/@signatures.1/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.76" deriving="//@ignored.77">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.260/@signatures.1/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.289"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.386"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.82">
+    <source href="cocome-impl.xmi#//@methods.392"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.81" deriving="//@ignored.84 //@ignored.85">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.392/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.86 //@ignored.87">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.392/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.82">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.392/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.82">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.392/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" deriving="//@ignored.83">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.392/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" deriving="//@ignored.83">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.392/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.407"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50" deriving="//@ignored.90">
+    <source href="cocome-impl.xmi#//@methods.412"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@ignored.89">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.412/@signatures.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="57">
+    <source href="cocome-impl.xmi#//@methods.414"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="60">
+    <source href="cocome-impl.xmi#//@methods.416"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.429"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.444"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.455"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="66">
+    <source href="cocome-impl.xmi#//@methods.2"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100">
+    <source href="cocome-impl.xmi#//@methods.85"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="66">
+    <source href="cocome-impl.xmi#//@methods.118"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="66">
+    <source href="cocome-impl.xmi#//@methods.251"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="66">
+    <source href="cocome-impl.xmi#//@methods.278"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="66">
+    <source href="cocome-impl.xmi#//@methods.351"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.265"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.332"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.351"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.370"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100">
+    <source href="cocome-impl.xmi#//@methods.388"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="50">
+    <source href="cocome-impl.xmi#//@methods.402"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TUnresolvedType" href="cocome-impl.xmi#//@ownedTypes.125"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.188"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.238"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.249"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.306"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="cocome-impl.xmi#//@ownedTypes.270"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.286"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.299"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="50">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.320"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="cocome-impl.xmi#//@methods.180"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" deriving="//@ignored.119">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.180/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.120 //@ignored.118">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.180/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" deriving="//@ignored.119">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.180/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="cocome-impl.xmi#//@methods.143"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" deriving="//@ignored.123">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.143/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.0 //@ignored.122">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.143/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="cocome-impl.xmi#//@methods.392"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="90">
+    <source href="cocome-impl.xmi#//@methods.225"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" deriving="//@ignored.127">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.225/@signatures.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@ignored.128 //@ignored.126">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.225/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" deriving="//@ignored.127">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.225/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </ignored>
+  <ignored xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.17 //@correspondences.14">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.61/@signatures.13/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#on_barcode_event"/>
+  </ignored>
+  <source href="cocome-impl.xmi#/"/>
+  <target href="../secdfds/uc1-buy.secdfd#uc1"/>
+  <correspondences xsi:type="org.gravity.mapping.secdfd:TypeGraph2EDFD">
+    <source href="cocome-impl.xmi#/"/>
+    <target href="../secdfds/uc1-buy.secdfd#uc1"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@ignored.82 //@correspondences.16 //@ignored.63 //@ignored.37 //@ignored.44 //@ignored.59 //@ignored.54 //@ignored.68 //@ignored.76 //@ignored.90 //@ignored.56">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.14"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#barcode"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.14">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.227"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#scan_barcode_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.207"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#start_sale_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.196"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#total_change_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.281"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#finish_sale_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.16">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.259"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100" deriving="//@correspondences.15 //@ignored.71">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.278"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#product_with_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.1"/>
+    <target xsi:type="org.secdfd:Asset" href="../secdfds/uc1-buy.secdfd#price"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.14">
+    <source href="cocome-impl.xmi#//@methods.61"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#on_barcode_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.16">
+    <source href="cocome-impl.xmi#//@methods.143"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.15">
+    <source href="cocome-impl.xmi#//@methods.394"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TClass" href="cocome-impl.xmi#//@ownedTypes.300"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingEntityType" Ranking="100">
+    <source xsi:type="org.gravity.typegraph.basic:TInterface" href="cocome-impl.xmi#//@ownedTypes.305"/>
+    <target xsi:type="org.secdfd:DataStore" href="../secdfds/uc1-buy.secdfd#store_query"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.2 //@correspondences.9" deriving="//@correspondences.17 //@ignored.129">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.61/@signatures.13"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#on_barcode_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.7 //@correspondences.11" deriving="//@correspondences.18">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.394/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.1 //@correspondences.6 //@correspondences.10" deriving="//@correspondences.19 //@correspondences.32">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.143/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.14" deriving="//@ignored.129">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.61/@signatures.13/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#on_barcode_event"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.15">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.394/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.16" deriving="//@correspondences.32">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.143/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd:TypeGraph2EDFD">
+    <source href="cocome-impl.xmi#/"/>
+    <target href="../secdfds/uc1-buy.secdfd#uc1"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.22" deriving="//@correspondences.24">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.311/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.23" deriving="//@correspondences.21 //@correspondences.24">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.311/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.22">
+    <source href="cocome-impl.xmi#//@methods.311"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.21 //@correspondences.22">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.311/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#start_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.26">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.331/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#publish"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.31" deriving="//@correspondences.25">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.331/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#publish"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.28" deriving="//@correspondences.30">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.93/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#scan_product_barcode"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.29" deriving="//@correspondences.27 //@correspondences.30">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.93/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#scan_product_barcode"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.28">
+    <source href="cocome-impl.xmi#//@methods.93"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#scan_product_barcode"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.27 //@correspondences.28">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.93/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#scan_product_barcode"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.26">
+    <source href="cocome-impl.xmi#//@methods.331"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#publish"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.19 //@correspondences.16">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.143/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_product_stock_item"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.34">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.170/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.35" deriving="//@correspondences.33">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.170/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.34">
+    <source href="cocome-impl.xmi#//@methods.170"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#get_sales_price"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.37">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.316/@signatures.0/@definitions.1"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessSignature" derived="//@correspondences.38" deriving="//@correspondences.36 //@correspondences.39">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodSignature" href="cocome-impl.xmi#//@methods.316/@signatures.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessName" Ranking="100" deriving="//@correspondences.37">
+    <source href="cocome-impl.xmi#//@methods.316"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </correspondences>
+  <correspondences xsi:type="org.gravity.mapping.secdfd.model:MappingProcessDefinition" derived="//@correspondences.37">
+    <source xsi:type="org.gravity.typegraph.basic:TMethodDefinition" href="cocome-impl.xmi#//@methods.316/@signatures.0/@definitions.0"/>
+    <target xsi:type="org.secdfd:Process" href="../secdfds/uc1-buy.secdfd#finish_sale"/>
+  </correspondences>
+</org.gravity.mapping.secdfd.model:Mapping>
